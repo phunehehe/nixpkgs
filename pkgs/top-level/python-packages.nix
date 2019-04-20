@@ -7708,6 +7708,7 @@ in {
 
   zxcvbn = callPackage ../development/python-modules/zxcvbn { };
 
+  pymdptoolbox = callPackage ../development/python-modules/pymdptoolbox {};
 });
 
 in fix' (extends overrides packages)
