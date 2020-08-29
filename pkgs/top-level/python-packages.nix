@@ -7708,6 +7708,8 @@ in {
 
   zxcvbn = callPackage ../development/python-modules/zxcvbn { };
 
+  open3d-python = callPackage ../development/python-modules/open3d-python {};
+
   pymdptoolbox = callPackage ../development/python-modules/pymdptoolbox {};
 });
 
