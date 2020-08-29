@@ -7710,6 +7710,8 @@ in {
 
   open3d-python = callPackage ../development/python-modules/open3d-python {};
 
+  pgmpy = callPackage ../development/python-modules/pgmpy {};
+
   pymdptoolbox = callPackage ../development/python-modules/pymdptoolbox {};
 });
 
